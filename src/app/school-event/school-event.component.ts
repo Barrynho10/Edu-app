@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
+import { HeaderComponent } from '../header/header.component';
 
 @Component({
   selector: 'app-school-event',
   standalone: true,
-  imports: [],
+  imports: [HeaderComponent],
   templateUrl: './school-event.component.html',
-  styleUrl: './school-event.component.css'
+  styleUrl: './school-event.component.css',
 })
-export class SchoolEventComponent {
-
-}
+export class SchoolEventComponent {}

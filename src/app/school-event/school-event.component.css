@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #000;
+  background-color: #f9f4f4f0;
 }
 .ag-courses_box {
   display: -webkit-box;
@@ -27,11 +27,14 @@ body {
   overflow: hidden;
 
   border-radius: 28px;
+  box-shadow: unset 3px 5px 8px rgba(0, 0, 0, 0.916);
+  border-style: outset;
 }
 .ag-courses-item_link {
   display: block;
   padding: 30px 20px;
-  background-color: #121212;
+  background-color: #4a9dfd;
+  /* background-color: #1c7be8; */
 
   overflow: hidden;
 
